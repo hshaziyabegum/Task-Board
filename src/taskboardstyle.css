@@ -1,0 +1,132 @@
+.task-header {
+    display: inline-block;
+    background:rgb(238, 238, 187);
+    color: rgb(102, 102, 85);
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.task-body {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.taskBoard.container {
+    width: 90%;
+    margin-top: 1%;
+}
+
+.taskBoard{
+    text-align: left;
+}
+
+.taskBoard .row-fluid {
+    display: flex;
+    border: 2px solid rgb(102, 102, 85);;
+}
+
+.taskBoard .col-md-2{
+    border-left: 2px solid  rgb(102, 102, 85);;
+    min-height: 90vh;
+    flex: 1;
+    padding: 0;
+}
+
+.taskBoard .col-md-2:first-child{
+    padding: 20px 10px;
+    border-left: none
+}
+
+.taskDiv{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    box-shadow : 5px 6px 8px -1px #818181;
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.taskDiv .close{
+    opacity: 1.1;
+    color: white;
+}
+
+.taskHeader{
+    padding:0 3px;
+    border-bottom: 1px solid white;
+}
+
+.taskBody {
+   padding: 5px;
+}
+
+.headerP {
+    color: rgb(102, 102, 85);
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.taskDiv p{ color:white; margin-bottom: 3px; font-size: 16px;}
+
+.taskDiv p:first-child{ color: black}
+
+.rotate {
+    color: rgb(102, 102, 85);
+    font-size: 30px;
+    transform: rotate(-90deg);
+    transform-origin: 109% 158%;
+    float: left;
+}
+
+.modal-header {
+    border-bottom: 1px solid rgb(102, 102, 85);
+    background:rgb(238, 238, 187);
+    color: rgb(102, 102, 85);
+}
+
+.modal-footer {
+    border-top: 1px solid rgb(102, 102, 85);
+    background:rgb(238, 238, 187);
+}
+
+.task-label{ color:rgb(102, 102, 85);}
+
+.glyphicon-asterisk { top:-3px; color: red; font-size: 7px}
+
+.glyphicon.glyphicon-pencil {
+    font-size: 14PX;
+    top: 2px;
+    color: white;
+    right: 4px;
+}
+
+.edit{ background: none; border: none;}
+
+.summary{ color: rgb(102, 102, 85);; font-size: 16px;}
+
+.summary p:first-child {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.addbtn-div{ float: right; margin-bottom: 20px;}
+
+.btn.btn-success, .btn.btn-warning {
+    text-shadow: none;
+    font-size: 15px;
+}
+
+.todo-p{ color: #ff0000}
+
+.inprogress-p{ color: #ff9900}
+
+.testing-p{ color: #ffdd00}
+
+.done-p{ color: #99c957}
+
+.time-p{ font-style: italic}
